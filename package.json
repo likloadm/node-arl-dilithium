@@ -1,0 +1,22 @@
+{
+  "main": "lib/binding.js",
+  "dependencies": {
+    "node-addon-api": "^1.1.0"
+  },
+  "scripts": {
+    "test": "node --napi-modules ./test/test_binding.js"
+  },
+  "gypfile": true,
+  "name": "arl-dilithium",
+  "version": "1.0.0",
+  "description": "Dilithium3 bindings for Arielcoin",
+  "keywords": [
+    "Dilithium3",
+    "Arielcoin",
+    "Post-Quantum",
+    "cryptography",
+    "NIST"
+  ],
+  "author": "Yar Sawyer",
+  "license": "ISC"
+}
