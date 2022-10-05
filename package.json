@@ -1,5 +1,6 @@
 {
-  "main": "lib/binding.js",
+  "main": "lib/binding",
+  "typings": "lib/binding",
   "dependencies": {
     "node-addon-api": "^1.1.0"
   },
